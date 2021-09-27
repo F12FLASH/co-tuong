@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cờ tướng</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<link href="css/chess.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script> alert("Xin lỗi, trình duyệt của bạn không hỗ trợ HTML5, vui lòng nâng cấp trình duyệt của bạn lên IE9, firefox hoặc Google Chrome!")</script>
+< ![endif]-->
+</head>
+<body>
+<div id="chessBox" class="chess_box">
+	<canvas id="chess"></canvas>
+	<audio src="audio/click.wav" id="clickAudio" preload="auto"></audio>
+	<audio src="audio/select.wav" id="selectAudio" preload="auto"></audio>
+	<div class="bn_box" id="bnBox">
+		<input type="button" name="restartBtn" id="restartBtn" value="  làm mới " />
+		<input type="button" name="gohomeBtn" id="gohomeBtn" value="  về trang chủ  " />
+	</div>
+</div>
+<div class="menu_box" id="menuBox">
+	<div class="menu_init" id="indexBox"><a id="indexDy">chơi người máy</a><a id="indexQj">Cờ thế</a></div>
+	<div class="menu_dy" id="menuDy">
+		<div class="menu_info">
+			<div class="menu_fh" id="menuFh"></div>
+			<label>
+				<input name="depth" type="radio" value="2">
+				Mới chơi</label>
+			<br />
+			<label>
+				<input name="depth" type="radio" value="3" checked>
+				Trung bình</label>
+			<br />
+			<label>
+				<input name="depth" type="radio" value="4">
+				Khó</label>
+		</div>
+		<a id="playBtn">Bắt đầu</a> </div>
+	<div class="menu_qj" id="menuQj">
+		<div class="menu_info">
+			<div class="menu_fh" id="menuGb"></div>
+			<label>
+				<input name="clasli" type="radio" value="0" checked>
+				hình thành Bát quái</label>
+			<br />
+			<label>
+				<input name="clasli" type="radio" value="1">số hai</label>
+			<br />
+			<label>
+				<input name="clasli" type="radio" value="2">Mảng bảy ngôi sao</label>
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="3">Giang hồ</label>
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="4">Khổng Minh tá tiễn</label>
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="5">Tam anh chiến lữ bố</label>
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="6">Mozambic</label>
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="7">Khưu dẫn hàng long</label>	
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="8">Đào Hồng Liễu Lục</label>	
+			<br />
+			<label>
+					<input name="clasli" type="radio" value="9">Đơn thân đọc đấu</label>
+			<br/>
+			<label>
+					<input name="clasli" type="radio" value="10">Khốn ngụy chế yên</label>
+			<br/>
+			<label>
+					<input name="clasli" type="radio" value="11">Tiểu khưu dẫn</label>
+					
+			
+		</div>
+		<a id = "clasliBtn">Bắt đầu thử thách</a> </div>
+</div>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/play.js"></script>
+<script type="text/javascript" src="js/AI.js"></script>
+<script type="text/javascript" src="js/gambit.js"></script>
+<script type="text/javascript" src="js/clasli.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/cordova-2.2.0.js"></script>
+</body>
+<audio autoplay>
+	<source src="./music.mp3">
+</audio>
+</html>

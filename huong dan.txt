@@ -1,0 +1,26 @@
+
+lập bàn cờ thế ở clasli.js
+
+*QUÂN ĐỎ 
+
+
+Tướng   ===>  j0
+Xỉ      ===> s0,s1
+Tịnh    ===>    x0,x1
+Mã     ===> m0,m1
+Xe      ===>    c0,c1
+Pháo     ===> p0,p1
+Tốt     ===>    z0,z1,z2,z3,z4
+
+
+
+*QUÂN ĐEN
+
+
+Tướng   ===>    J0
+Xỉ      ===>    S0,S1
+Tịnh    ===>    X0,X1
+Mã     ===>     M0,M1
+Xe      ===>    C0,C1
+Pháo     ===>   P0,P1
+Tốt     ===>    Z0,Z1,Z2,Z3,Z4
